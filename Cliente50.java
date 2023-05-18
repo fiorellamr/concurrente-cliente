@@ -37,8 +37,6 @@ class Cliente50 {
             salir = sc.nextLine();
             ClienteEnvia(salir);
         }
-        // System.out.println("Cliente bandera 02");
-
     }
 
     void ClienteRecibe(String llego) {
@@ -119,10 +117,8 @@ class Cliente50 {
                         + "max: " + max + "min: " + min + "dif: " + dif);
             }
             sum[id] = integral;
-
         }
     }
-
 }
 
 class EvaluadorPolinomios {
